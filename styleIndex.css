@@ -1,0 +1,70 @@
+body {
+    text-transform: uppercase;
+    margin: auto;
+}
+
+header {
+    height:35px;
+    text-align: right;
+}
+nav {
+    font-size: 18px;
+    background-color: white;
+    margin-top: 15px;    
+}
+a {
+    color:#5B4F47;
+    margin: 30px;
+}
+a:hover {
+    color: #BD9479;
+}
+
+main {
+    background-color:#F8F7F4;
+    height: 871px;
+    font-size: 40px;
+    display:flex;
+    justify-content:space-around;
+    line-height: 5px;
+    
+}
+.ID {
+    width: 50%;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 400px;
+
+}
+.firstname {
+    color:#BD9479;
+}
+.lastname {
+    color:#BD9479;
+}
+span {
+    color:rgb(238, 223, 204);
+}
+p {
+    color:#5B4F47;
+    font-size: 20px;
+}
+.look {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-right: 50px;
+}
+img {
+    width: 850px;
+    height: 850px;
+    transform: translate(15px);
+    transform-origin: 80% 99%;
+    transition: transform 3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}

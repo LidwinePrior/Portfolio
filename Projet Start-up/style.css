@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=DM+Sans&display=swap');
+body {
+    font-family: 'Dm Sans';
+    margin: auto;
+}
+
+
+.first {
+    background-color: #3A9094;
+    height: 950px;
+    width: 1440px;
+    text-align: center;
+}
+.logo {
+    width: 187px;
+    height: 177px;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    margin: 15px;
+}
+.first button {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #3A9094;
+    margin: 30px;
+}
+.first button:hover {
+    color:#E0D9C5;
+}
+.tchin {
+    width: 1440px;
+    height: 387px;
+}
+.title {
+    font-size: 80px;
+    color: #4E1A3D;
+    background-color: white;
+    font-family: 'Bad Script', cursive;
+}
+.first p {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.second {
+    background-color: #E0D9C5;
+    height: 842px;
+    width: 1440px;
+    text-align: center;
+    padding-top: 3px;
+}
+.second h2 {
+    color: #4E1A3D;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 400px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    padding-left: 25px;
+}
+select {
+    background-color:#ffffff;
+    border-radius: 10px;
+    color:#4E1A3D;
+    border: 1px solid #4E1A3D;
+    font-size: 25px;
+}
+.second img {
+    height: 550px;
+    width: 350px;
+    border-radius: 35px;
+    cursor: pointer;
+    display: inline-block;
+}
+.second button {
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #3A9094;
+    color: rgb(255, 255, 255);
+    background-color: #3A9094;
+}
+.second button:hover {
+    background-color:#337f83;
+}
+
+
+.third {
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 700px;
+    text-align: center;
+    padding-top: 3px;
+}
+.third h2 {
+    color: #4E1A3D;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 400px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.third img {
+    height: 450px;
+    width: 250px;
+    margin-left: 10px;
+}
+.third button {
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #3A9094;
+    color: rgb(255, 255, 255);
+    background-color: #3A9094;
+}
+.third button:hover {
+    background-color:#337f83;
+}
+
+
+.fourth {
+    background-color: #3A9094;
+    width: 1440px;
+    height: 820px;
+    text-align: center;
+    padding-top: 3px;
+}
+.fourth h2 {
+    color: #4E1A3D;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 400px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fourth div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #E0D9C5;
+}
+.fourth p {
+    font-size: 25px;
+    color:#4E1A3D;
+}
+
+
+.fifth {
+    background-color: #E0D9C5;
+    height: 800px;
+    width: 1440px;
+    padding-top: 3px;
+}
+.fifth h2 {
+    color: #4E1A3D;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 400px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fifth img {
+    height: 500px;
+    width: 500px;
+}
+.seemore {
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #3A9094;
+    color: rgb(255, 255, 255);
+    background-color: #3A9094;
+    margin-left: 700px;
+ 
+}
+.seemore:hover {
+    background-color:#337f83;
+}
+.inscription {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #4E1A3D;
+    color: rgb(255, 255, 255);
+    background-color:#4E1A3D ;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.inscription:hover {
+    background-color:#461836;
+}
+.fifth div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sixth {
+    width: 1440px;
+    height: 210px;
+    background-color: #3A9094;
+    color:#ffffff;
+    text-align: center;
+}
+.sixth div {
+    display:flex;
+    justify-content: space-between;
+    align-items:start;
+    flex-direction:row;
+}
+.call {
+    text-align: left;
+    margin-left: 10px;
+}
+.street {
+    text-align: center;
+    margin-left: 55px;
+}
+.mentions {
+    text-align: right;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.sixth img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+section {
+    margin: auto;
+}

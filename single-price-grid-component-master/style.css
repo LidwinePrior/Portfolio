@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla, sans-serif;
+}
+main h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 16px;
+}
+main h2 {
+    color:hsl(71, 73%, 54%);
+    font-size: 14px;
+}
+main p {
+    color:hsl(218, 22%, 67%);
+    font-size: 12px;
+}
+main {
+    background-color:hsl(0, 0%, 100%);
+    width: 476px;
+    height: 115px;
+    border-radius: 5px 5px 0 0;
+    padding: 30px 0 30px 30px;
+    margin: auto;
+
+}
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.first h3 {
+    color:hsl(204, 43%, 93%);
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+    align-items:center;
+}
+.first span {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 8px;
+
+}
+.first p {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+
+}
+.first button {
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: hsl(71, 73%, 54%);
+    width: 180px;
+    height: 40px;
+}
+.first {
+    background-color:hsl(179, 62%, 43%);
+    width: 223px;
+    height: 150px;
+    border-radius: 0 0 0 5px;
+    padding: 30px 0 30px 30px;
+}
+
+.second p {
+    color: hsl(204, 43%, 93%);
+    font-size: 12px;
+    text-align: left;
+}
+.second {
+    background-color:hsl(179, 56%, 52%);
+    width: 223px;
+    height: 150px;
+    border-radius: 0 0 5px 0;
+    padding: 30px 0 30px 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
